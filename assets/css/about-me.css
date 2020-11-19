@@ -1,0 +1,9 @@
+#about-me .container-image {
+  text-align: center;
+}
+#about-me .container-image img {
+  width: 250px;
+}
+#about-me .content-text {
+  font-size: 1.2rem;
+}

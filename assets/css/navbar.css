@@ -1,0 +1,18 @@
+#navbar {
+  background: black;
+  font-weight: 400;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: 0 10px 10px 0 rgba(34, 36, 38, 0.15);
+  font-family: "Roboto Slab", serif;
+}
+
+#navbar a {
+  color: #ffffff;
+}
+#navbar .dropdown-menu {
+  background-color: #000;
+}
+
+#navbar .dropdown-item:hover {
+  color: black;
+}

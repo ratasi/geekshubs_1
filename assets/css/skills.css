@@ -1,0 +1,47 @@
+#skills {
+  position: relative;
+  overflow: hidden;
+}
+
+#skills .progress-bar {
+  background: linear-gradient(270deg, #f2709c, #ff9472);
+}
+#skills .rotate {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+#skills .rotate::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  transform: skewY(3deg);
+  transform-origin: right top;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: -1;
+}
+#skills .progress {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#skills .container h2 {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+#skills .container .content-skill {
+  padding: 15px 0;
+}
+
+#skills .container h4 {
+  color: #fff;
+  text-align: center;
+}
